@@ -95,6 +95,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> to_bytes(9999999,4)
 '\x7f\x96\x98\x00'
 >>>
+```
 ![image](https://user-images.githubusercontent.com/37355028/110065260-bbe19400-7da9-11eb-8691-e308b61ec5b8.png)
 
 C#:
