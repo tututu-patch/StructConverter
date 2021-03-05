@@ -65,6 +65,7 @@ def from_bytes(n):
 ```
 ## C# Method :
 int.from_bytes(bytes, byteorder, *, signed=False) => StructConverter.cs (From_Bytes fuction)
+
 int.to_bytes(length, byteorder, *, signed=False) => StructConverter.cs (To_Bytes fuction)
 ## Example
 ```
