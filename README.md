@@ -68,19 +68,19 @@ int.from_bytes(bytes, byteorder, *, signed=False) => StructConverter.cs (From_By
 
 int.to_bytes(length, byteorder, *, signed=False) => StructConverter.cs (To_Bytes fuction)
 ## Example
-```
 Python3:
-
+```
 Python 3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 15 2019, 00:11:34) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> c = 9999999
 >>> c.to_bytes(4, byteorder='little')
 b'\x7f\x96\x98\x00'
 >>>
+```
 ![image](https://user-images.githubusercontent.com/37355028/110065243-b08e6880-7da9-11eb-8d56-0dc7130e11fd.png)
 
 Python2:
-
+```
 Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> def to_bytes(n, length):
