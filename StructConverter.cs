@@ -235,7 +235,7 @@ public class StructConverter
     /// <param name="startIndex">The first index to use</param>
     /// <param name="bytesToConvert">The number of bytes to use</param>
     /// <returns>The value built from the given bytes</returns>
-    public static long FromBytes(byte[] buffer, int bytesToConvert, int startIndex = 0)
+    public static long From_Bytes(byte[] buffer, int bytesToConvert, int startIndex = 0)
     {
         long ret = 0;
         for (int i = 0; i < bytesToConvert; i++)
