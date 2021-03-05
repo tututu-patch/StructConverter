@@ -102,7 +102,23 @@ C#:
 
 ![image](https://user-images.githubusercontent.com/37355028/110065996-73c37100-7dab-11eb-984d-81565b640ec2.png)
 
+## C# implementation of Python 2/3 data flow functions struct.pack, struct.unpack, struct.unpack_from
 
+## 关于Python 2/3的数据流函数struct.pack、struct.unpack、struct.unpack_from的C#实现
 
+```
+struct.pack(format, v1, v2, ...)
+Return a bytes object containing the values v1, v2, … packed according to the format string format. The arguments must match the values required by the format exactly.
 
+struct.unpack(format, buffer)
+Unpack from the buffer buffer (presumably packed by pack(format, ...)) according to the format string format. The result is a tuple even if it contains exactly one item. The buffer’s size in bytes must match the size required by the format, as reflected by calcsize().
 
+struct.unpack_from(format, /, buffer, offset=0)
+Unpack from buffer starting at position offset, according to the format string format. The result is a tuple even if it contains exactly one item. The buffer’s size in bytes, starting at position offset, must be at least the size required by the format, as reflected by calcsize().
+```
+
+struct.pack(format, v1, v2, ...) => StructConverter.cs (Pack fuction)
+
+struct.unpack(format, buffer) => StructConverter.cs (Unpack fuction)
+
+struct.unpack_from(format, /, buffer, offset=0) => StructConverter.cs (Unpack_From fuction)
